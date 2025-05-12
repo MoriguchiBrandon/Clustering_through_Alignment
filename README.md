@@ -20,11 +20,24 @@ This project performs pairwise sequence alignment on RNA-Seq reads using the Nee
 
 ## ⚙️ Installation Requirements
 
+---
 ```bash
 pip install biopython
-
+```
 
 ## 🚀 Usage
+
+## Required files for both options:
+1. 'GLDS-255_rna_seq_GSM3932708_trimmed.fastq.gz'
+
+## Required files for option 2:
+1. `Global_similarity_matrix.csv`
+2. `Global_reduced_reads.csv`
+3. `Local_similarity_matrix.csv` 
+4. `Local_reduced_reads.csv`
+
+all files can be found at my google drive:
+https://drive.google.com/drive/folders/1jQhBv4KrMrLi_3w51WT8Y-JJGIf3EdBL?usp=sharing
 
 ### 🔁 Option 1: Run Entire Pipeline
 
@@ -48,5 +61,4 @@ pip install biopython
 3.Perform hierarchical clustering and visualize dendrogram.
 4. Analyze or BLAST reads from selected clusters. (takes about 1 hour for 50 Blast reads)
 
-
-
+✅ Run **Setup and all cells below "Reading All Cells into Colab"** to execute the shortened workflow.
